@@ -2,6 +2,7 @@ package com.assignment.library_api.services.impl;
 
 import com.assignment.library_api.exceptions.ResourceNotFoundException;
 import com.assignment.library_api.models.Book;
+import com.assignment.library_api.models.EBook;
 import com.assignment.library_api.repositories.LibraryRepository;
 import com.assignment.library_api.services.LibraryService;
 import org.slf4j.Logger;

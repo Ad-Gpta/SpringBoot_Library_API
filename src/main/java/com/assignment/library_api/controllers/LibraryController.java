@@ -2,6 +2,7 @@ package com.assignment.library_api.controllers;
 
 import com.assignment.library_api.exceptions.ResourceNotFoundException;
 import com.assignment.library_api.models.Book;
+import com.assignment.library_api.models.EBook;
 import com.assignment.library_api.services.LibraryService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -35,8 +36,14 @@ public class LibraryController {
         }
     }
 
-    @PostMapping
+    @PostMapping("/addBook")
     public boolean addBook(@RequestBody Book book)
+    {
+        return libraryService.addBook(book);
+    }
+
+    @PostMapping("/addEbook")
+    public boolean addEBook(@RequestBody EBook book)
     {
         return libraryService.addBook(book);
     }
