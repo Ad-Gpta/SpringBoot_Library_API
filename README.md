@@ -1,12 +1,12 @@
-# SpringBoot Library API
+# SpringBoot RESTful API Library API
 
 ### Features:
-- adding books
-- adding ebooks
-- removing books
-- searching for books
-- listing all books
-- borrowing and returning books
+- Multiple profiles
+- Exception handling
+- In memory implementation
+- Database implementation (H2 and PostgreSQL)
+- SpringBoot Actuator
+- Tested using client API: Bruno
 
 ### How to run:
 Run com.assignment.library_api.LibraryApiApplication java file
