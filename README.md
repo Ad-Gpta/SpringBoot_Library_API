@@ -1,4 +1,4 @@
-# SpringBoot RESTful API Library API
+# SpringBoot RESTful Library API
 
 ### Features:
 - Multiple profiles
