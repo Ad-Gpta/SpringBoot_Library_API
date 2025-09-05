@@ -11,6 +11,11 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+// CORS (Cross-Origin Resource Sharing)
+@CrossOrigin(origins ="http://localhost:4200",
+        methods = {RequestMethod.POST, RequestMethod.GET, RequestMethod.PUT, RequestMethod.DELETE},
+        maxAge=3600)
+
 @RestController
 @RequestMapping("/api/books")
 public class LibraryController {
